@@ -14,4 +14,7 @@ Run the command:
 
 Linux:
 Open console and run:
-"python3 hellowoworld.py
+"python3 helloworld.py
+ 
+mac:
+run python and drag and drop both py file into python and run helloworld.py
