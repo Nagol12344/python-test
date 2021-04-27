@@ -1,15 +1,7 @@
 import time
 from codestuffdontread import end
 
-def end():
-    print('You have failed')
-    time.sleep(2)
-    print('Please wait...')
-    time.sleep(7)
-    print('Now ending all code, please wait...')
-    time.sleep(10)
-    print('Done!')
-    time.sleep(2)
+
 print('You wake up to find pitchforks and fire coming to your house')
 time.sleep(2)
 print('The vliiagers are shouting "DEATH TO THE WITCH"')
