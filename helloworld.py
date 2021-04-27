@@ -85,7 +85,9 @@ if q1 == '3':
   time.sleep(5)
   q13 = input("Whats your pic?")
   if q13 == '1':
-    print('idk i need help with this')
+   print('you go outside and trun on the hose and the hose dose nothing')
+    time.sleep(10)
+    end()
   elif q13 == '2':
     time.sleep(2)
     print('The jars are not filled with water')
