@@ -1,6 +1,6 @@
 import time
 from codestuffdontread import end
-
+from codestuffdontread import win1
 
 print('You wake up to find pitchforks and fire coming to your house')
 time.sleep(2)
@@ -101,8 +101,7 @@ if q1 == '3':
       time.sleep(2)
       end()
     if q23 == 1:
-      time.sleep(2)
-      print('')
+      win1()
   elif q13 == '2':
     time.sleep(2)
     print('The jars are not filled with water')
@@ -110,3 +109,5 @@ if q1 == '3':
     print('The jars do nothing to the fire and your house is berned to the ground')
     time.sleep(3)
     end()
+if q1 == '4':
+  win1()
