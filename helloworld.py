@@ -95,6 +95,11 @@ if q1 == '3':
       print('Before geting your snack you get killed by the villagers')
       time.sleep(2)
       end()
+    if q23 == 3:
+      time.sleep(2)
+      print('The villagers kill you')
+      time.sleep(2)
+      end()
   elif q13 == '2':
     time.sleep(2)
     print('The jars are not filled with water')
