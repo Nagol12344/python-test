@@ -89,6 +89,11 @@ if q1 == '3':
     print('When you tern on the hose the pipes explode from under the vliagers and you knock them of there feet')
     time.sleep(2)
     print('The water puts out the fire')
+    time.sleep(2)
+    print('The villagers are running for you')
+    time.sleep(2)
+    print('What do you want to do?')
+    time.sleep(4)
   elif q13 == '2':
     time.sleep(2)
     print('The jars are not filled with water')
