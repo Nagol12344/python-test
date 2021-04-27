@@ -94,6 +94,7 @@ if q1 == '3':
     time.sleep(2)
     print('What do you want to do?')
     time.sleep(4)
+    print('Type 1 to run')
   elif q13 == '2':
     time.sleep(2)
     print('The jars are not filled with water')
