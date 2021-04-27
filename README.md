@@ -10,11 +10,11 @@ Download the zip in realses
 Windoes:
 Open command prompt
 Run the command: 
-'python helloworld.py'
+'python Main (run me).py'
 
 Linux:
 Open console and run:
-"python3 helloworld.py
+"python3 Main (run me).py
  
 mac:
-run python and drag and drop both py file into python and run helloworld.py
+run python and drag and drop both py file into python and run Main (run me).py
