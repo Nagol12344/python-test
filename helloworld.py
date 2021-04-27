@@ -89,7 +89,7 @@ if q1 == '3':
     print('Type 1 to run')
     print('Type 2 to eat a snack')
     print('Type 3 to do nothing')
-    q23 = imput('Whats your pic?: ')
+    q23 = input('Whats your pic?: ')
     if q23 == 2:
       time.sleep(2)
       print('Before geting your snack you get killed by the villagers')
