@@ -2,14 +2,16 @@
 This is a test learning python
 
 
-# How to download
+# How to run
+Download python 
 
-You will need git to download the files
+Download the zip in realses
 
-Warning: this only works with linux right now but more support is coming
+Windoes:
+Open command prompt
+Run the command: 
+'python helloworld.py'
 
-First download the linux file in releses
-
-Then cd in to the folder its in and run this command
-
-`<addr>` chmod
+Linux:
+Open console and run:
+"python3 hellowoworld.py
