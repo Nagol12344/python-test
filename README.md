@@ -10,11 +10,11 @@ Download the zip in realses
 Windoes:
 Open command prompt
 Run the command: 
-'python Main (run me).py'
+'python Main.py'
 
 Linux:
 Open console and run:
-"python3 Main (run me).py
+"python3 Main.py
  
 mac:
-run python and drag and drop both py file into python and run Main (run me).py
+run python and drag and drop both py file into python and run Main.py
