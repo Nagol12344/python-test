@@ -15,7 +15,7 @@ print('Type 2 to try to set fire to them')
 print('Type 3 to splash them in water')
 print('Type 4 to run')
 q1 = input("What do you want to do?: ")
-if q1 == 4:
+if q1 == '4':
   win1()
 if q1 == '1':
   print('You leave your house and start talking')
