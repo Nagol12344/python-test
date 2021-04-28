@@ -1,11 +1,6 @@
 import time
-import update_check
 from codestuffdontread import end
 from codestuffdontread import win1
-
-from update_check import checkForUpdates
-
-checkForUpdates(__file__, "https://raw.githubusercontent.com/Nagol12344/python-test/main/Main%20(run%20me).py")
 
 print('You wake up to find pitchforks and fire coming to your house')
 time.sleep(2)
