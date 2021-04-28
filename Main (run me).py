@@ -109,3 +109,5 @@ if q1 == '3':
     print('The jars do nothing to the fire and your house is berned to the ground')
     time.sleep(3)
     end()
+if q1 == 4:
+  win1()
