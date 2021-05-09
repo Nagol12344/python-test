@@ -18,4 +18,5 @@ def win1():
     print('You passed the first level')
     time.sleep(2)
     print('It only gets harder after then this')
+    exec(open("notmain.py").read())
 
