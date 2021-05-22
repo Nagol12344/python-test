@@ -1,5 +1,6 @@
 import time
 
+
 def end():
     print('You have failed')
     time.sleep(2)
@@ -9,6 +10,7 @@ def end():
     time.sleep(10)
     print('Done!')
     time.sleep(2)
+
 def win1():
     time.sleep(2)
     print('You run into the trees')
@@ -20,3 +22,4 @@ def win1():
     print('It only gets harder after then this')
     exec(open("notmain.py").read())
 
+     

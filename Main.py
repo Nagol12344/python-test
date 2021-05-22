@@ -1,4 +1,5 @@
 import time
+import os
 from codestuffdontread import end
 from codestuffdontread import win1
 
