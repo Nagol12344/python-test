@@ -1,0 +1,4 @@
+template: |
+  ## Commits it this update:
+
+  $CHANGES
