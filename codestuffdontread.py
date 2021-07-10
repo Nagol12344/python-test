@@ -22,4 +22,5 @@ def win1():
     print('It only gets harder after then this')
     exec(open("notmain.py").read())
 
-     
+def updatecheck():
+    print('no new updates needed')

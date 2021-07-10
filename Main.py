@@ -2,7 +2,10 @@ import time
 import os
 from codestuffdontread import end
 from codestuffdontread import win1
+from codestuffdontread import updatecheck
 
+
+updatecheck()
 print('You wake up to find pitchforks and fire coming to your house')
 time.sleep(2)
 print('The vliiagers are shouting "DEATH TO THE WITCH"')
