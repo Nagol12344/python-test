@@ -109,6 +109,6 @@ if q1 == '3':
     time.sleep(2)
     print('The jars are not filled with water')
     time.sleep(6)
-    print('The jars do nothing to the fire and your house is berned to the ground')
+    print('The jars do nothing to the fire and your house is burned to the ground')
     time.sleep(3)
     end()
