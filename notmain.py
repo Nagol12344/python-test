@@ -2,7 +2,7 @@ import time
 import random
 from codestuffdontread import end
 
-atu = 'What are you doing'
+atu = 'Whats your pick? '
 
 time.sleep(2)
 print('You have been runing for hours')
