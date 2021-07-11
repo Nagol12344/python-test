@@ -20,6 +20,13 @@ if sn == '1':
     print('You take a quick nap and wake up about 2 hours later')
     time.sleep(3)
     print('what do you want to do now?')
+    time.sleep(3)
+    print('Type 1 to explore')
+    print('Type 2 to bulid something')
+    print('Type 3 to go hunting')
+    print('Type 4 to climb a tree')
+    time.sleep(2)
+    fobml = input(atu)
 elif sn == '2':
     print('you keep running')
     print('after 2 more hours you run off a cliff')
