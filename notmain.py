@@ -27,6 +27,7 @@ if sn == '1':
     print('Type 4 to climb a tree')
     time.sleep(2)
     fobml = input(atu)
+    
 elif sn == '2':
     print('you keep running')
     print('after 2 more hours you run off a cliff')
