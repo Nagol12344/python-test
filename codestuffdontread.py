@@ -23,4 +23,19 @@ def win1():
     exec(open("notmain.py").read())
 
 def updatecheck():
-    print('no new updates needed')
+    import json
+    test2 = '0'
+    json_data = '{"update" : "1.0"}'
+    parsed_json = (json.loads(json_data))
+    class Test(object):
+        def __init__(self, data):
+	        self.__dict__ = json.loads(data)
+
+    test1 = Test(json_data)
+    if test1.update == '1.0':
+        test2 = '1'
+    if test2 == '0':
+        print('You need to update, get the update at the github')
+    elif test2 == '1':
+        print('Your up to date')
+    
