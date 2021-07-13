@@ -28,7 +28,9 @@ if sn == '1':
     time.sleep(2)
     fobml = input(atu)
     if fobml == 1:
-        print('')
+        print('you find a crab')
+        crab = 1
+        print('good job')
 elif sn == '2':
     print('you keep running')
     print('after 2 more hours you run off a cliff')

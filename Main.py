@@ -1,11 +1,10 @@
 import time
 import os
-from codestuffdontread import end
+from codestuffdontread import end1
 from codestuffdontread import win1
 from codestuffdontread import updatecheck
 
 
-updatecheck()
 print('You wake up to find pitchforks and fire coming to your house')
 time.sleep(2)
 print('The vliiagers are shouting "DEATH TO THE WITCH"')
@@ -40,7 +39,7 @@ if q1 == '1':
   time.sleep(7)
   print('Your house is destoryed, and you are hanged for your crime')
   time.sleep(2)
-  end()
+  end1()
 if q1 == '2':
   time.sleep(2)
   print('How do you want to set them on fire')
@@ -73,7 +72,7 @@ if q1 == '2':
     time.sleep(2)
     print('You died for allmost killing a child')
     time.sleep(6)
-    end()
+    end1()
 if q1 == '3':
   time.sleep(4)
   print("How do you want to do it?")
@@ -100,12 +99,12 @@ if q1 == '3':
       time.sleep(2)
       print('Before geting your snack you get killed by the villagers')
       time.sleep(2)
-      end()
+      end1()
     if q23 == 3:
       time.sleep(2)
       print('The villagers kill you')
       time.sleep(2)
-      end()
+      end1()
     if q23 == 1:
       win1()
   elif q13 == '2':
@@ -114,4 +113,4 @@ if q1 == '3':
     time.sleep(6)
     print('The jars do nothing to the fire and your house is burned to the ground')
     time.sleep(3)
-    end()
+    end1()

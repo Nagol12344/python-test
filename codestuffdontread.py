@@ -1,7 +1,7 @@
 import time
 
 
-def end():
+def end1():
     print('You have failed')
     time.sleep(2)
     print('Please wait...')
