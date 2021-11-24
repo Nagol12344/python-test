@@ -34,4 +34,4 @@ if sn == '1':
 elif sn == '2':
     print('you keep running')
     print('after 2 more hours you run off a cliff')
-    end()
+    exit()
