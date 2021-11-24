@@ -1,4 +1,6 @@
 import time
+import json
+import os
 
 
 def end1():
@@ -10,6 +12,8 @@ def end1():
     time.sleep(10)
     print('Done!')
     time.sleep(2)
+    exit()
+
 
 def win1():
     time.sleep(2)
@@ -22,14 +26,16 @@ def win1():
     print('It only gets harder after then this')
     exec(open("notmain.py").read())
 
+
 def updatecheck():
     import json
     test2 = '0'
     json_data = '{"update" : "1.0"}'
     parsed_json = (json.loads(json_data))
+
     class Test(object):
         def __init__(self, data):
-	        self.__dict__ = json.loads(data)
+            self.__dict__ = json.loads(data)
 
     test1 = Test(json_data)
     if test1.update == '1.0':
@@ -38,4 +44,3 @@ def updatecheck():
         print('You need to update, get the update at the github')
     elif test2 == '1':
         print('Your up to date')
-    

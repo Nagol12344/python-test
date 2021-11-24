@@ -1,6 +1,6 @@
 import time
 import random
-from codestuffdontread import end
+from codestuffdontread import end1
 
 atu = 'Whats your pick? '
 

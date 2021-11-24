@@ -7,7 +7,7 @@ from codestuffdontread import updatecheck
 
 print('You wake up to find pitchforks and fire coming to your house')
 time.sleep(2)
-print('The vliiagers are shouting "DEATH TO THE WITCH"')
+print('The vilagers are shouting "DEATH TO THE WITCH"')
 time.sleep(5)
 print('"Oh no", you think "They know the witch is here"')
 time.sleep(7)
