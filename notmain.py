@@ -26,7 +26,7 @@ if sn == '1':
     print('Type 3 to go hunting')
     print('Type 4 to climb a tree')
     time.sleep(2)
-    fobml = input(atu)
+    fobml = int(input(atu))
     if fobml == 1:
         print('you find a crab')
         crab = 1

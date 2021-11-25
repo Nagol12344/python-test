@@ -1,4 +1,5 @@
-import time, json, urllib, os
+import time, json, os
+from urllib.request import urlopen
 
 
 def end1():
@@ -25,21 +26,25 @@ def win1():
     exec(open("notmain.py").read())
 
 def get_file_from_internet_as_var():
-    response = urllib.request.urlopen('https://raw.githubusercontent.com/Nagol12344/python-test/main/update.json')
+    response = urlopen('https://raw.githubusercontent.com/Nagol12344/python-test/main/update.json')
     return response.read()
 
 def json_to_dict(json_string):
     return json.loads(json_string)
 
 def check_if_update_available(json1, json2):
-    if int(json1['version']) > int(json2['version']):
-        return True
-    else:
+    if float(json1['version']) > float(json2['version']):
         return False
+    else:
+        return True
 
 def check_update():
     file = get_file_from_internet_as_var()
     file1 = json_to_dict(file)
-    update = '{"version":"1.0"}'
+    update = '{"version" : "1.4"}'
     update1 = json_to_dict(update)
     check = check_if_update_available(file1, update1)
+    if check == True:
+        print("Your up to date!")
+    if check == False:
+        print("There is an update available!\nPlesase download it on github!");

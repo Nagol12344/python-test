@@ -1,10 +1,9 @@
 import time
 import os
 from codestuffdontread import end1
-from codestuffdontread import win1
-from codestuffdontread import updatecheck
-
-
+from codestuffdontread import win1, check_update
+update = check_update()
+time.sleep(2)
 print('You wake up to find pitchforks and fire coming to your house')
 time.sleep(2)
 print('The vilagers are shouting "DEATH TO THE WITCH"')
