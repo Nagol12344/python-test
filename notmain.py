@@ -31,7 +31,25 @@ if sn == '1':
         print('you find a crab')
         crab = 1
         print('good job')
+    if fobml == 2:
+        print('What would you like to bulid?')
+        print('Type 1 for a house')
+        print('Type 2 for a shed')
+        print('Type 3 for a cabin')
+    if fobml == 3:
+        print("You grab a stick and start hunting")
+        time.sleep(3)
+        print('You find a deer')
+        deer = 1
+        print('Noice')
+    if fobml == 4:
+        print('You climb a tree')
+        time.sleep(3)
+        print("You find nothing")
+        time.sleep(2)
+        print("You wasted time")
 elif sn == '2':
     print('you keep running')
     print('after 2 more hours you run off a cliff')
     exit()
+
