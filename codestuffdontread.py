@@ -1,6 +1,4 @@
-import time
-import json
-import os
+import time, json, urllib, os
 
 
 def end1():
@@ -26,3 +24,22 @@ def win1():
     print('It only gets harder after then this')
     exec(open("notmain.py").read())
 
+def get_file_from_internet_as_var():
+    response = urllib.request.urlopen('https://raw.githubusercontent.com/Nagol12344/python-test/main/update.json')
+    return response.read()
+
+def json_to_dict(json_string):
+    return json.loads(json_string)
+
+def check_if_update_available(json1, json2):
+    if int(json1['version']) > int(json2['version']):
+        return True
+    else:
+        return False
+
+def check_update():
+    file = get_file_from_internet_as_var()
+    file1 = json_to_dict(file)
+    update = '{"version":"1.0"}'
+    update1 = json_to_dict(update)
+    check = check_if_update_available(file1, update1)
