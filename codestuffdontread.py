@@ -48,3 +48,4 @@ def check_update():
         print("Your up to date!")
     if check == False:
         print("There is an update available!\nPlesase download it on github!");
+        os.system("error")
