@@ -36,6 +36,7 @@ if sn == '1':
         print('Type 1 for a house')
         print('Type 2 for a shed')
         print('Type 3 for a cabin')
+        bsigidrk = input(atu)
     if fobml == 3:
         print("You grab a stick and start hunting")
         time.sleep(3)
