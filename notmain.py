@@ -61,12 +61,14 @@ if sn == '1':
          print("You gather some wood for a fire")
          time.sleep(2)
          RNG = random.randint(1,100)
-         print("RNG "+RNG)
+         #print("RNG "+RNG)
          if RNG > 50:
            print("The fire lit!")
-        else:
-          print("The fire set the forest ablaze, killing you")
-          end1()
+         else:
+            print("The fire set the forest ablaze, killing you")
+            end1()
+        if BUILD = 4:
+          print("")
     if fobml == 3:
         print("You grab a stick and start hunting")
         time.sleep(3)
