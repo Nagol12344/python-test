@@ -67,7 +67,7 @@ if sn == '1':
          else:
             print("The fire set the forest ablaze, killing you")
             end1()
-        if BUILD = 4:
+        if BUILD == 4:
           print("")
     if fobml == 3:
         print("You grab a stick and start hunting")
